@@ -29,5 +29,8 @@ def addBinary(a, b):
 
 if __name__ == '__main__':
 
-    res = addBinary('11','1')
-    print(res)
+    # res = addBinary('11','1')
+    # print(res)
+    stack = [1,2,3]
+    stack.pop(2)
+    print(stack)
